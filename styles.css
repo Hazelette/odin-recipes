@@ -1,0 +1,39 @@
+* {
+    color: beige;
+    background-color: black;
+    font-family: Arial, sans-serif;
+    box-sizing: border-box;
+    /* good practice to add border box */
+}
+p{
+    margin: 10px;
+    padding: 10px;
+    font-size: 18px;
+}
+
+h2{
+    text-decoration: dotted underline;
+}
+
+li{
+    margin: 5px;
+    padding: 5px;
+    font-size: 20px;
+}
+.recipe-list {
+    border-width: 5px white;
+    border-style: solid;
+    font-weight: 300;
+    display: inline-block;
+    /* inline-block makes the border up to actual list length */
+    box-sizing: border-box;
+    margin: 10px;
+    padding: 20px;
+    
+}
+.ingredients-list{
+    margin: 10px;
+    padding: 30px;
+    display: inline-block;
+    border: 3px solid white;
+}
